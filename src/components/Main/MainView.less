@@ -1,0 +1,89 @@
+@gray: rgba(255, 255, 255, 0.67);
+@import "../../entries/theme";
+
+
+.main-view {
+  min-height: 100%;
+  .right-layout{
+    height: 100%;
+    .header-bar{
+      background: @c-bk-x;
+      padding: 0;
+      .fr-trigger{
+        float: left;
+        font-size: @s-tx-x;
+        line-height: 64px;
+        padding: 0 16px;
+        cursor: pointer;
+        transition: color .3s;
+      }
+      .fr-trigger .ant-layout-sider-collapsed .nav-text{
+        display: none;
+      }
+      .fr-trigger:hover{
+        color: @c-aid-blaze;
+      }
+      .header-title {
+        float: left;
+        width: 123px;
+        height: 100%;
+        background: url("../../img/qslogo.png") no-repeat;
+        background-size: contain;
+        background-position-y: 50%;
+        color: transparent;
+        margin-left: 25px;
+      }
+    }
+    .content{
+      margin: 24px 16px;
+      background: @c-bk-x;
+      min-height: 280px;
+    }
+    .user-info {
+      float: right;
+      color: rgba(0, 0, 0, 0.65);
+      line-height: 60px;
+      padding-right: 20px;
+    }
+    .hover-click{
+      color: rgba(0, 0, 0, 0.65);
+    }
+  }
+
+  .fr-logo{
+    height: 32px;
+    background: @c-tx-x;
+    border-radius: 6px;
+    margin: 16px;
+  }
+
+  .main-box {
+
+    padding-left: 40px;
+    padding-right: 20px;
+    .sider {
+      background: @c-bk-x;
+      .ant-layout-sider-trigger {
+        background: @c-bk-x;
+        color: #d9d9d9;
+      }
+    }
+  }
+
+  .menu {
+    height: 100%;
+    line-height: 100%;
+    float: right;
+    .menu-box {
+      margin-top: 8px;
+    }
+
+  }
+
+  .ant-layout-sider-children {
+    padding-bottom: 50px;
+  }
+
+
+}
+
