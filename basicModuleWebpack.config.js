@@ -35,7 +35,4 @@ let wpconfig = {
 
 process.noDeprecation = true;
 
-
-
-
 module.exports = wpconfig;

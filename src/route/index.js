@@ -39,11 +39,6 @@ const common = (that) => {
     </div>
 };
 
-
-
-
-
-
 const allRoute = [
     <Route path='AccountManage' component={ AccountManage }/>,
     <Route path='WorkGroupManage' component={ WorkGroupManage }/>,
@@ -88,7 +83,6 @@ const Routes = ({ history }) => {
     </Router>
 
 };
-
 
 Routes.propTypes = {
   history: PropTypes.any,
